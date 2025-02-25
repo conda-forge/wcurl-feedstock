@@ -1,5 +1,5 @@
 {% set name = "wcurl" %}
-{% set version = "2024.12.08" %}
+{% set version = "2025.02.24" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/curl/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 9c0615b2c5d6b21da79ff559e75452197330d18449085a18e05f4b623b144a94
+  sha256: 640319b7a3dfd693a4a513ae603539b9e0632a706ed75f969765f5341f1a14c7
 
 build:
   number: 0
